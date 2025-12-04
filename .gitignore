@@ -26,7 +26,7 @@ dist-ssr
 !node_modules/.vite
 
 **/tempobook/dynamic/
-**/tempobook/storyboards/
+#**/tempobook/storyboards/
 
 core
 
