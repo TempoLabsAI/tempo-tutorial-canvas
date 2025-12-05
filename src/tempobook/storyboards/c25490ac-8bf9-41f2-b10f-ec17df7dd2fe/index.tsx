@@ -30,14 +30,14 @@ const Storyboard1 = () => {
           <SectionSubTitle>
             Every element in tempo is running code you can interact with.
           </SectionSubTitle>
-          <TutorialLink />
+          <TutorialLink onClick={() => window.open('https://youtu.be/vG70LBxGHM8', '_blank')} />
         </div>
         <div
           className={
             "border-2 border-[#6448ef] flex flex-col justify-center items-center gap-[22px] bg-white w-full rounded-2xl gap-y-0 border-dashed h-[600px]"
           }
         >
-          <TutorialButton />
+          <TutorialButton onClick={() => window.open('https://youtu.be/vG70LBxGHM8', '_blank')} />
         </div>
       </div>
       <div className="w-full flex justify-start items-start gap-x-16 flex-col gap-y-20 h-[fit] py-20 z-10 relative">
